@@ -78,7 +78,7 @@
 
 	// Branding Side
 	&-branding {
-		background: $secondary-color;
+		background: darken($secondary-color, 5);
 		@include easeOut();
 		transform: translate3d(0, 100%, 0);
 
@@ -108,6 +108,7 @@
 
 		&.current > a {
 			color: $secondary-color;
+			font-weight: bolder;
 		}
 	}
 

@@ -47,7 +47,7 @@
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #bd4d4e;
+    background: #af4142;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -64,7 +64,8 @@
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #bd4d4e; }
+      color: #bd4d4e;
+      font-weight: bolder; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
