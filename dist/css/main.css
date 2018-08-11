@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #163347;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #bd4d4e;
     transition: all 0.5s ease-out;
     transform: translate3d(0, 100%, 0); }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       height: 250px;
       background: url("http://via.placeholder.com/250x250");
       border-radius: 50%;
-      border: solid 3px #eece1a; }
+      border: solid 3px #1c415a; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #eece1a; }
+      color: #bd4d4e; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -76,7 +76,8 @@
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #eece1a; }
+      color: #bd4d4e;
+      font-weight: bolder; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -94,11 +95,11 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
+  background: #1c415a;
   color: white;
   height: 100%;
   margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Oxygen', sans-serif;
   line-height: 1.5; }
   body#bg-img {
     background: url(../img/background.jpg);
@@ -112,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(28, 65, 90, 0.9); }
 
 h1,
 h2,
@@ -128,7 +129,7 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(30, 71, 98, 0.5); }
 
 a {
   color: white;
@@ -140,7 +141,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #eece1a; }
+  color: #bd4d4e; }
 
 main {
   padding: 4rem;
@@ -150,7 +151,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #eece1a;
+        color: #bd4d4e;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -163,14 +164,14 @@ main {
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .job {
-    background: #515151;
+    background: #224f6d;
     padding: 0.5rem;
-    border-bottom: #eece1a 5px solid; }
+    border-bottom: #bd4d4e 5px solid; }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #eece1a 3px solid; }
+    border: #bd4d4e 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -184,7 +185,7 @@ main {
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
+  background: #102533;
   color: white;
   height: 60px; }
 
@@ -197,7 +198,7 @@ main {
     border: 3px #fff solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #eece1a;
+      border-color: #bd4d4e;
       transition: easeOut(); }
 
 .boxes {
@@ -214,7 +215,7 @@ main {
     transition: all 0.5s ease-out; }
     .boxes div:hover {
       padding: 0.5rem 1.5rem;
-      background: #eece1a;
+      background: #bd4d4e;
       color: black; }
       .boxes div:hover span {
         color: black; }
@@ -225,7 +226,7 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #eece1a;
+    background: #bd4d4e;
     color: black; }
 
 .btn-dark {
@@ -233,7 +234,7 @@ main {
   color: white; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #97c1de;
   color: #333; }
 
 @media screen and (max-width: 1171px) {

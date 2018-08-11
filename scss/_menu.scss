@@ -78,7 +78,7 @@
 
 	// Branding Side
 	&-branding {
-		background: $primary-color;
+		background: $secondary-color;
 		@include easeOut();
 		transform: translate3d(0, 100%, 0);
 
@@ -93,7 +93,7 @@
 			// add your linkedin profile pic
 			background: url('http://via.placeholder.com/250x250');
 			border-radius: 50%;
-			border: solid 3px $secondary-color;
+			border: solid 3px $primary-color;
 		}
 	}
 
@@ -124,6 +124,7 @@
 
 		&:hover {
 			color: $secondary-color;
+			font-weight: bolder;
 		}
 	}
 }
