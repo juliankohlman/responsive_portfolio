@@ -42,7 +42,7 @@
 		transform: translate3d(100%, 0, 0);
 
 		.portrait {
-			background: url('http://via.placeholder.com/150x150');
+			background: url($bio-image);
 			width: 150px;
 			height: 150px;
 		}

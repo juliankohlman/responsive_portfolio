@@ -1,8 +1,10 @@
-$primary-color: #1c415a;
+// $primary-color: #1c415a;
+$primary-color: #3d3d3b;
 $secondary-color: #bd4d4e;
 // Add adobeColor Schemes for easy testing
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
+$bio-image: url(../img/projects/bioImg-500x500.jgp);
 $background-opacity: 0.9;
 
 @mixin easeOut {

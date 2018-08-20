@@ -94,6 +94,9 @@ main {
 		border-radius: 50%;
 		border: $secondary-color 3px solid;
 		// add transform to rotate profile image
+		width: 250px;
+		height: 250px;
+		transform: rotate(90deg);
 	}
 
 	.bio {

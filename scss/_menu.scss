@@ -87,11 +87,10 @@
 			transform: translate3d(0, 0, 0);
 		}
 
-		.portrait {
+		.portrait .bio-image {
 			width: 250px;
 			height: 250px;
-			// add your linkedin profile pic
-			background: url('http://via.placeholder.com/250x250');
+			transform: rotate(90deg);
 			border-radius: 50%;
 			border: solid 3px $primary-color;
 		}
