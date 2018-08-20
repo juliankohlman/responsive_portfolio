@@ -131,7 +131,12 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(66, 66, 64, 0.5); }
+    background: rgba(66, 66, 64, 0.5);
+    font-family: 'Nunito Sans' sans-serif; }
+  h1 .latin-translation,
+  h2 .latin-translation,
+  h3 .latin-translation {
+    font-family: 'Amatic SC', cursive; }
 
 a {
   color: white;

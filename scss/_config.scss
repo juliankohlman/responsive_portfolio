@@ -4,8 +4,8 @@ $secondary-color: #bd4d4e;
 // Add adobeColor Schemes for easy testing
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$bio-image: url(../img/projects/bioImg-500x500.jpg);
-$small-bio-image: url(../img/projects/bioImg-125x125.jpg);
+$bio-image: url(../img/projects/bioImg-252x252.jpg);
+$small-bio-image: url(../img/projects/bioImg-150x150.jpg);
 $background-opacity: 0.9;
 
 @mixin easeOut {

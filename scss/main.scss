@@ -31,6 +31,10 @@ h3 {
 		margin-bottom: 2rem;
 		padding: 0.2rem 1rem;
 		background: rgba(lighten($color: $primary-color, $amount: 2), 0.5);
+		font-family: 'Nunito Sans' sans-serif;
+	}
+	.latin-translation {
+		font-family: 'Amatic SC', cursive;
 	}
 }
 
